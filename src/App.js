@@ -60,7 +60,7 @@ function App() {
       <button onClick={loadTodos} > TODOs </button>
       <div>
         {/*ovde cemo prikazati POSTS ili TODOS, u zavisnosti od toga na sta se klikne */}
-        <div id='displayEntity' className='main-container'></div>
+        <div id='displayEntity'></div>
       </div>
     </div>
   );
