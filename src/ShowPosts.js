@@ -11,5 +11,5 @@ export function ShowPosts (props) {
     // svaki post cemo prikazati u posebnom divu, sto znaci da cemo ovde imati niz divova
     let jsx_elements = postsArray.map((p) => <ShowPost  post={p} />)
 
-    return <div>{jsx_elements}</div>;
+    return <div className='posts-container'>{jsx_elements}</div>;
 }

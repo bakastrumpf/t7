@@ -1,0 +1,10 @@
+/* definisemo stil za 1 post */
+
+.post_container{
+    border: 1px solid lightblue;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
